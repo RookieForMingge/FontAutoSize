@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EEE239B1DE2855A00980B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE239A1DE2855A00980B6D /* main.m */; };
+		4EEE239E1DE2855A00980B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE239D1DE2855A00980B6D /* AppDelegate.m */; };
+		4EEE23A11DE2855A00980B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE23A01DE2855A00980B6D /* ViewController.m */; };
+		4EEE23A41DE2855A00980B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE23A21DE2855A00980B6D /* Main.storyboard */; };
+		4EEE23A61DE2855A00980B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE23A51DE2855A00980B6D /* Assets.xcassets */; };
+		4EEE23A91DE2855A00980B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE23A71DE2855A00980B6D /* LaunchScreen.storyboard */; };
+		4EEE23B41DE2855A00980B6D /* FontAutoSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE23B31DE2855A00980B6D /* FontAutoSizeTests.m */; };
+		4EEE23BF1DE2855A00980B6D /* FontAutoSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE23BE1DE2855A00980B6D /* FontAutoSizeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EEE23B01DE2855A00980B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEE238E1DE2855A00980B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEE23951DE2855A00980B6D;
+			remoteInfo = FontAutoSize;
+		};
+		4EEE23BB1DE2855A00980B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEE238E1DE2855A00980B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEE23951DE2855A00980B6D;
+			remoteInfo = FontAutoSize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EEE23961DE2855A00980B6D /* FontAutoSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAutoSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE239A1DE2855A00980B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EEE239C1DE2855A00980B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EEE239D1DE2855A00980B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EEE239F1DE2855A00980B6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EEE23A01DE2855A00980B6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EEE23A31DE2855A00980B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EEE23A51DE2855A00980B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EEE23A81DE2855A00980B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EEE23AA1DE2855A00980B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEE23AF1DE2855A00980B6D /* FontAutoSizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAutoSizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE23B31DE2855A00980B6D /* FontAutoSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAutoSizeTests.m; sourceTree = "<group>"; };
+		4EEE23B51DE2855A00980B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEE23BA1DE2855A00980B6D /* FontAutoSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAutoSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE23BE1DE2855A00980B6D /* FontAutoSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAutoSizeUITests.m; sourceTree = "<group>"; };
+		4EEE23C01DE2855A00980B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EEE23931DE2855A00980B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE23AC1DE2855A00980B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE23B71DE2855A00980B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EEE238D1DE2855A00980B6D = {
+			isa = PBXGroup;
+			children = (
+				4EEE23981DE2855A00980B6D /* FontAutoSize */,
+				4EEE23B21DE2855A00980B6D /* FontAutoSizeTests */,
+				4EEE23BD1DE2855A00980B6D /* FontAutoSizeUITests */,
+				4EEE23971DE2855A00980B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EEE23971DE2855A00980B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE23961DE2855A00980B6D /* FontAutoSize.app */,
+				4EEE23AF1DE2855A00980B6D /* FontAutoSizeTests.xctest */,
+				4EEE23BA1DE2855A00980B6D /* FontAutoSizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EEE23981DE2855A00980B6D /* FontAutoSize */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE239C1DE2855A00980B6D /* AppDelegate.h */,
+				4EEE239D1DE2855A00980B6D /* AppDelegate.m */,
+				4EEE239F1DE2855A00980B6D /* ViewController.h */,
+				4EEE23A01DE2855A00980B6D /* ViewController.m */,
+				4EEE23A21DE2855A00980B6D /* Main.storyboard */,
+				4EEE23A51DE2855A00980B6D /* Assets.xcassets */,
+				4EEE23A71DE2855A00980B6D /* LaunchScreen.storyboard */,
+				4EEE23AA1DE2855A00980B6D /* Info.plist */,
+				4EEE23991DE2855A00980B6D /* Supporting Files */,
+			);
+			path = FontAutoSize;
+			sourceTree = "<group>";
+		};
+		4EEE23991DE2855A00980B6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE239A1DE2855A00980B6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EEE23B21DE2855A00980B6D /* FontAutoSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE23B31DE2855A00980B6D /* FontAutoSizeTests.m */,
+				4EEE23B51DE2855A00980B6D /* Info.plist */,
+			);
+			path = FontAutoSizeTests;
+			sourceTree = "<group>";
+		};
+		4EEE23BD1DE2855A00980B6D /* FontAutoSizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE23BE1DE2855A00980B6D /* FontAutoSizeUITests.m */,
+				4EEE23C01DE2855A00980B6D /* Info.plist */,
+			);
+			path = FontAutoSizeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EEE23951DE2855A00980B6D /* FontAutoSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEE23C31DE2855A00980B6D /* Build configuration list for PBXNativeTarget "FontAutoSize" */;
+			buildPhases = (
+				4EEE23921DE2855A00980B6D /* Sources */,
+				4EEE23931DE2855A00980B6D /* Frameworks */,
+				4EEE23941DE2855A00980B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAutoSize;
+			productName = FontAutoSize;
+			productReference = 4EEE23961DE2855A00980B6D /* FontAutoSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EEE23AE1DE2855A00980B6D /* FontAutoSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEE23C61DE2855A00980B6D /* Build configuration list for PBXNativeTarget "FontAutoSizeTests" */;
+			buildPhases = (
+				4EEE23AB1DE2855A00980B6D /* Sources */,
+				4EEE23AC1DE2855A00980B6D /* Frameworks */,
+				4EEE23AD1DE2855A00980B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEE23B11DE2855A00980B6D /* PBXTargetDependency */,
+			);
+			name = FontAutoSizeTests;
+			productName = FontAutoSizeTests;
+			productReference = 4EEE23AF1DE2855A00980B6D /* FontAutoSizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EEE23B91DE2855A00980B6D /* FontAutoSizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEE23C91DE2855A00980B6D /* Build configuration list for PBXNativeTarget "FontAutoSizeUITests" */;
+			buildPhases = (
+				4EEE23B61DE2855A00980B6D /* Sources */,
+				4EEE23B71DE2855A00980B6D /* Frameworks */,
+				4EEE23B81DE2855A00980B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEE23BC1DE2855A00980B6D /* PBXTargetDependency */,
+			);
+			name = FontAutoSizeUITests;
+			productName = FontAutoSizeUITests;
+			productReference = 4EEE23BA1DE2855A00980B6D /* FontAutoSizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EEE238E1DE2855A00980B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "ming-zhang";
+				TargetAttributes = {
+					4EEE23951DE2855A00980B6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZV2DDP49V6;
+						ProvisioningStyle = Automatic;
+					};
+					4EEE23AE1DE2855A00980B6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZV2DDP49V6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EEE23951DE2855A00980B6D;
+					};
+					4EEE23B91DE2855A00980B6D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZV2DDP49V6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EEE23951DE2855A00980B6D;
+					};
+				};
+			};
+			buildConfigurationList = 4EEE23911DE2855A00980B6D /* Build configuration list for PBXProject "FontAutoSize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EEE238D1DE2855A00980B6D;
+			productRefGroup = 4EEE23971DE2855A00980B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EEE23951DE2855A00980B6D /* FontAutoSize */,
+				4EEE23AE1DE2855A00980B6D /* FontAutoSizeTests */,
+				4EEE23B91DE2855A00980B6D /* FontAutoSizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEE23941DE2855A00980B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE23A91DE2855A00980B6D /* LaunchScreen.storyboard in Resources */,
+				4EEE23A61DE2855A00980B6D /* Assets.xcassets in Resources */,
+				4EEE23A41DE2855A00980B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE23AD1DE2855A00980B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE23B81DE2855A00980B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EEE23921DE2855A00980B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE23A11DE2855A00980B6D /* ViewController.m in Sources */,
+				4EEE239E1DE2855A00980B6D /* AppDelegate.m in Sources */,
+				4EEE239B1DE2855A00980B6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE23AB1DE2855A00980B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE23B41DE2855A00980B6D /* FontAutoSizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE23B61DE2855A00980B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE23BF1DE2855A00980B6D /* FontAutoSizeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EEE23B11DE2855A00980B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEE23951DE2855A00980B6D /* FontAutoSize */;
+			targetProxy = 4EEE23B01DE2855A00980B6D /* PBXContainerItemProxy */;
+		};
+		4EEE23BC1DE2855A00980B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEE23951DE2855A00980B6D /* FontAutoSize */;
+			targetProxy = 4EEE23BB1DE2855A00980B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EEE23A21DE2855A00980B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEE23A31DE2855A00980B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EEE23A71DE2855A00980B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEE23A81DE2855A00980B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EEE23C11DE2855A00980B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EEE23C21DE2855A00980B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EEE23C41DE2855A00980B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZV2DDP49V6;
+				INFOPLIST_FILE = FontAutoSize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cat.FontAutoSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EEE23C51DE2855A00980B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZV2DDP49V6;
+				INFOPLIST_FILE = FontAutoSize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cat.FontAutoSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EEE23C71DE2855A00980B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZV2DDP49V6;
+				INFOPLIST_FILE = FontAutoSizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cat.FontAutoSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAutoSize.app/FontAutoSize";
+			};
+			name = Debug;
+		};
+		4EEE23C81DE2855A00980B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZV2DDP49V6;
+				INFOPLIST_FILE = FontAutoSizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cat.FontAutoSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAutoSize.app/FontAutoSize";
+			};
+			name = Release;
+		};
+		4EEE23CA1DE2855A00980B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZV2DDP49V6;
+				INFOPLIST_FILE = FontAutoSizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cat.FontAutoSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontAutoSize;
+			};
+			name = Debug;
+		};
+		4EEE23CB1DE2855A00980B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZV2DDP49V6;
+				INFOPLIST_FILE = FontAutoSizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cat.FontAutoSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontAutoSize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EEE23911DE2855A00980B6D /* Build configuration list for PBXProject "FontAutoSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE23C11DE2855A00980B6D /* Debug */,
+				4EEE23C21DE2855A00980B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEE23C31DE2855A00980B6D /* Build configuration list for PBXNativeTarget "FontAutoSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE23C41DE2855A00980B6D /* Debug */,
+				4EEE23C51DE2855A00980B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EEE23C61DE2855A00980B6D /* Build configuration list for PBXNativeTarget "FontAutoSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE23C71DE2855A00980B6D /* Debug */,
+				4EEE23C81DE2855A00980B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EEE23C91DE2855A00980B6D /* Build configuration list for PBXNativeTarget "FontAutoSizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE23CA1DE2855A00980B6D /* Debug */,
+				4EEE23CB1DE2855A00980B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EEE238E1DE2855A00980B6D /* Project object */;
+}
